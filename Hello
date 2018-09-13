@@ -1,0 +1,11 @@
+uurloon = int(input('Voer je uurloon in:'))
+uur =  int(input('Voer je gewerkte uren in:'))
+loon = str(uur * uurloon)
+uurloon = str(uurloon)
+uur = str(uur)
+verdien = 'Wat verdien je per uur: '+ uurloon +''
+hoeveel = 'Hoeveel uur heb je gewerkt: '+ uur +''
+salaris = ''+ uur +' uur werken levert '+ loon +' Euro op'
+print(verdien)
+print(hoeveel)
+print(salaris)
