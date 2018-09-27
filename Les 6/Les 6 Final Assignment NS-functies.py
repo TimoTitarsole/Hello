@@ -22,7 +22,8 @@ def ritprijs(leeftijd, weekendrit, afstandKM):
             eindprijs = standaardprijs(afstandKM)
         if weekendrit == 'nee':
             eindprijs = standaardprijs(afstandKM) * 0.60
-    print(eindprijs)
+    eindprijs = str(eindprijs)
+    print('De eindprijs van uw reis is' + " " + eindprijs + " " + 'euro.')
 
 afstandKM = (float(input('Hoevoel KM is je reis?')))
 leeftijd = (float(input('Wat is uw leeftijd?')))
